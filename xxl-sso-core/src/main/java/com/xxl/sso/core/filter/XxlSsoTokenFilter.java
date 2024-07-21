@@ -28,6 +28,8 @@ public class XxlSsoTokenFilter extends HttpServlet implements Filter {
     private String logoutPath;
     private String excludedPaths;
 
+
+
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
 
